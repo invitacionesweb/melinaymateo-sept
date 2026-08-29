@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css" />
+
+
+   
+    <title>MELI Y MATEO</title>
+
+</head>
+<body>
+<!--
+        <header >
+        <nav>
+            <div class="logo">
+
+               
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section1">Detalles</a></li>
+                <li><a href="#section2">Información</a></li>
+                <li><a href="#section3">Redes</a></li>
+
+                <li><a href="#section4" class="rsvp-btn">RSVP</a></li>
+                <br>
+            </ul>
+        </nav>
+    </header>
+-->
+
+    <div class="background">
+        
+    </div>
+        <div class="audiodiv">
+            <audio id="myAudio" preload="auto">
+            <source src="./lafiesta.mp3" type="audio/mpeg">
+            </audio>
+            <div id="playPauseBtn" class="play">
+                <img src="./img/notamusical.png" alt="Icono de música">
+            </div>
+        </div>
+
+    <p data-aos="fade-up" class="titulocontador">Faltan:</p>
+    <div class="contador">
+    
+        <div class="bloque">
+            <div data-aos="fade-up" id="dias" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">Días</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="horas" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">horas</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="minutos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">minutos</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="segundos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">segundos</div>
+        </div>
+    </div>
+
+
+
+<div class="datos-ubicacion">
+    <div>
+        <img data-aos="fade-down" src="./img-editable/icono1.png" alt="">
+    </div>
+  <div class="datos">
+      <div >
+        <p data-aos="fade-up">Sábado 26 de Septiembre <br>15:30 Hs - Parroquia San Juan Bautista</p>
+        <a data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//Parroquia+San+Juan+Bautista,+Monse%C3%B1or+D+1210,+11300+Montevideo,+Departamento+de+Montevideo,+Uruguay/@-34.9094427,-56.1529082,17z/data=!4m17!1m7!3m6!1s0x959f810dabfdd9eb:0x2d7cfde77cbbafb1!2sParroquia+San+Juan+Bautista!8m2!3d-34.9094427!4d-56.1503333!16s%2Fg%2F1tk8d8zh!4m8!1m0!1m5!1m1!1s0x959f810dabfdd9eb:0x2d7cfde77cbbafb1!2m2!1d-56.1503342!2d-34.9094428!3e0?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+    </div>
+
+  </div>
+    <div class="datos">
+      <div >
+        <p data-aos="fade-up">18:00 Hs - Aras By Dilema</p>
+        <a data-aos="fade-up" class="boton" target="_blank" href="google.com/maps?sca_esv=406f8fd305742c6c&rlz=1C5BAPC_enAR1171AR1174&output=search&q=Aras+By+Dilema+(dirección:+Alfredo+Zitarrosa,+15000,+Club+Hípico+Solymar)&source=lnms&fbs=ABfTbFUH6541xPydhFIyuo171yE6DxL0h6YASmBvAp0E2j1Me9xPvzInoL6pdDt03df-iFXLmzXwi8VidHs9As5ZqE4EendxMyYI1dWInoh7R5EkCSyRu1y8rCU-FofQYikliWUyl-YekrblZdGQ2xhqcsjIZBk8_eIeYiFaA5j25FXRmSumAtSgKezHLJdE0PQfoEnZxdh8G0wOAvOr2jQmylTmEe45xg&entry=mc&ved=1t:200715&ictx=111">CÓMO LLEGAR</a>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="novios">
+    <img src="./img-editable/fotos1.png" alt="">
+    <div class="icono2">
+      <img data-aos="fade-down" src="./img-editable/icono2.png" alt="">
+    </div>
+    <div class="icono3">
+      <img  data-aos="fade-up" src="./img-editable/icono3.png" alt="">
+    </div>
+</div>
+<div class="carrusel-polaroid">
+  <div class="carrusel-track">
+    
+ 
+    <div class="carrusel-slide" data-index="0">
+      <h3>La propuesta</h3>
+      <div class="polaroid">
+        <img src="./img-editable/carrusel1.png" alt="">
+      </div>
+      <p>Así empezó todo.</p>
+      
+    </div>
+ 
+    <div class="carrusel-slide" data-index="1">
+      <h3>El primer viaje</h3>
+      <div class="polaroid">
+        <img src="./img-editable/carrusel2.png" alt="">
+      </div>
+      <p>Nuestro primer viaje juntos.</p>
+     
+    </div>
+ 
+    <div class="carrusel-slide" data-index="2">
+      <h3>La mudanza</h3>
+      <div class="polaroid">
+        <img src="./img-editable/carrusel3.png" alt="">
+      </div>
+      <p>Nuestro primer depto.</p>
+    
+    </div>
+ 
+    <div class="carrusel-slide" data-index="3">
+      <h3>El sí</h3>
+      <div class="polaroid">
+        <img src="./img-editable/carrusel4.png" alt="">
+      </div>
+      <p>Y acá estamos.</p>
+     
+    </div>
+ 
+  </div>
+ 
+  <div class="carrusel-nav">
+    <div class="carrusel-dots"></div>
+  </div>
+</div>
+ 
+    <div id="section2" class="accordion">
+        <H3 data-aos="fade-up">Antes de que nos consultes...</H3>
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿CÓMO ME VISTO?</button>
+            <div class="accordion-content">
+                <p>Elegante, tené presente que parte de la ceremonia es al aire libre.
+                </p> <br>
+            </div>
+        </div>
+
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿QUÉ LES REGALO?</button>
+            <div class="accordion-content">
+                <p>Tu presencia es lo más importante para nosotros. Si además querés hacernos un regalo: 
+
+                </p>
+                <div class="gift-block">
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('3149641')">Nº cuenta en pesos 3149641</div>
+                    </div>
+                    <br>
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('3149633')">Nº cuenta en dólares 3149633</div>
+                    </div>
+                    <br>
+                    <br>
+                    <p>Hace click para copiar los números de cuenta.</p>
+                    <p>Banco: ITAÚ <br>Titular: Melina Villanueva Palacios</p>
+                </div>
+                 <br>
+            </div>
+        </div>
+
+  
+        
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿DÓNDE ESTACIONO?</button>
+            <div class="accordion-content">
+                <p>En el salón hay espacio para estacionar.
+                </p> 
+
+            </div>
+        </div>
+        
+ 
+    <br>
+        <div class="icono4">
+        <img data-aos="fade-down" src="./img-editable/icono4.png" alt="">
+        </div>
+        <div class="icono5">
+        <img  data-aos="fade-up" src="./img-editable/icono5.png" alt="">
+        </div>
+    </div>
+
+
+     <div class="forms">
+        
+
+      <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbwrGZMg1rJfD_jSB6vAsMQIVWD9okXHDmxN6jVzhYLCGKvPlj-VDX-2RVWkdkElBUs4-Q/exec" class="formulario">
+
+    <label data-aos="fade-up" class="formtitle">Sólo faltas vos, Venis?</label>
+
+    <div class="radio-group">
+        <label class="radio-option">
+        <input type="radio" name="ASISTENCIA" value="sí" required />
+        <span>Sí</span>
+        </label>
+        <label class="radio-option">
+        <input type="radio" name="ASISTENCIA" value="no" />
+        <span>No</span>
+        </label>
+    </div>
+
+    <input type="text" name="NOMBRE" placeholder="Nombre" required />
+    <input type="text" name="APELLIDO" placeholder="Apellido" required />
+
+    <select name="DIETA" required>
+        <option value="" disabled selected>¿Alguna dieta especial?</option>
+        <option value="Nada">Nada / Como de todo</option>
+        <option value="Vegetariano">Vegetariano</option>
+        <option value="Vegano">Vegano</option>
+        <option value="Celíaco">Celíaco</option>
+    </select>
+
+    <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea>
+    <textarea name="CANCION" placeholder="Recomendale una canción al DJ 🎶"></textarea>
+
+    <button type="submit" class="boton">ENVIAR</button>
+</form>
+        <p data-aos="fade-up">RECORDÁ COMPLETAR UN FORMULARIO POR PERSONA. </p>
+    </div>
+
+
+    <div class="novios">
+        <img src="./img-editable/fotos2.png" alt="">
+    
+        
+        <div class="icono6">
+        <img  data-aos="fade-up" src="./img-editable/icono6.png" alt="">
+        </div>
+    </div>
+
+    
+
+    <div class="end">
+        <img data-aos="fade-up" src="./img-editable/manosanillos.png" alt="">
+        <h2 data-aos="fade-up" >Melina y Mateo</h2>
+        <p data-aos="fade-down">Te esperamos</p>
+    </div>
+
+    <footer>
+        <div class="contenido">
+            <div>
+            <img src="./img/logosiquiero.png" alt="icono si quiero">
+                <p>Hecho con &hearts; <br>
+                &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+                <br> Todos los derechos reservados.</p>
+            </div>
+            
+            <div class="contenido-list">
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                    <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./countdwon.js"></script>
+<script src="./reproductor.js"></script>
+<script src="form.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const stack = document.getElementById('fotosStack');
+  const fotos = Array.from(stack.querySelectorAll('.foto'));
+  if (fotos.length === 0) return;
+ 
+  const offsets = [
+    { rotate: -6, x: -12, y: 8 },
+    { rotate: 5,  x: 10,  y: 12 },
+    { rotate: -4, x: 6,   y: -6 }
+  ];
+ 
+  let current = 0;
+ 
+  function render() {
+    fotos.forEach((foto, i) => {
+      if (i === current) {
+        foto.style.transform = 'translate(0,0) rotate(0deg) scale(1)';
+        foto.style.zIndex = fotos.length + 1;
+      } else {
+        const dist = (i - current + fotos.length) % fotos.length;
+        const off = offsets[dist % offsets.length];
+        foto.style.transform = `translate(${off.x}px, ${off.y}px) rotate(${off.rotate}deg) scale(0.94)`;
+        foto.style.zIndex = fotos.length - dist;
+      }
+    });
+  }
+ 
+  render();
+  setInterval(() => {
+    current = (current + 1) % fotos.length;
+    render();
+  }, 3000);
+});
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const track = document.querySelector('.carrusel-track');
+  const slides = Array.from(track.querySelectorAll('.carrusel-slide'));
+  const dotsWrap = document.querySelector('.carrusel-dots');
+  let current = 0;
+ 
+  const offsets = [
+    { rotate: -7, x: -16, y: 10 },
+    { rotate: 6,  x: 14,  y: 14 },
+    { rotate: -4, x: 8,   y: -8 },
+    { rotate: 8,  x: -10, y: 6 }
+  ];
+ 
+  slides.forEach((_, i) => {
+    const dot = document.createElement('span');
+    dot.addEventListener('click', () => { current = i; render(); });
+    dotsWrap.appendChild(dot);
+  });
+  const dots = Array.from(dotsWrap.children);
+ 
+  function render() {
+    slides.forEach((slide, i) => {
+      const polaroid = slide.querySelector('.polaroid');
+      if (i === current) {
+        polaroid.style.transform = 'translate(0,0) rotate(0deg) scale(1)';
+        slide.style.zIndex = slides.length + 1;
+        slide.classList.add('is-active');
+      } else {
+        const dist = (i - current + slides.length) % slides.length;
+        const off = offsets[dist % offsets.length];
+        polaroid.style.transform = `translate(${off.x}px, ${off.y}px) rotate(${off.rotate}deg) scale(0.94)`;
+        slide.style.zIndex = slides.length - dist;
+        slide.classList.remove('is-active');
+      }
+    });
+    dots.forEach((d, i) => d.classList.toggle('is-active', i === current));
+  }
+ 
+  function next() {
+    current = (current + 1) % slides.length;
+    render();
+  }
+  function prev() {
+    current = (current - 1 + slides.length) % slides.length;
+    render();
+  }
+ 
+  // Deslizar con el dedo (mobile) o el mouse (desktop) para cambiar de foto
+  let startX = 0;
+  let isDragging = false;
+  const SWIPE_THRESHOLD = 40;
+ 
+  function dragStart(x) {
+    isDragging = true;
+    startX = x;
+  }
+  function dragEnd(x) {
+    if (!isDragging) return;
+    isDragging = false;
+    const diff = startX - x;
+    if (diff > SWIPE_THRESHOLD) next();
+    else if (diff < -SWIPE_THRESHOLD) prev();
+  }
+ 
+  track.addEventListener('touchstart', (e) => dragStart(e.touches[0].clientX), { passive: true });
+  track.addEventListener('touchend', (e) => dragEnd(e.changedTouches[0].clientX));
+ 
+  track.addEventListener('mousedown', (e) => { dragStart(e.clientX); e.preventDefault(); });
+  track.addEventListener('mouseup', (e) => dragEnd(e.clientX));
+  track.addEventListener('mouseleave', () => { isDragging = false; });
+ 
+  render();
+});
+</script>
+
+
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+
+    // Escucha el primer scroll
+    const playOnScroll = () => {
+      audio.play().catch(e => {
+        console.warn("El navegador bloqueó la reproducción automática", e);
+      });
+      document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+    };
+
+    document.addEventListener("scroll", playOnScroll);
+  });
+</script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach((header) => {
+      header.addEventListener("click", function () {
+        const item = this.parentElement;
+        item.classList.toggle("active");
+
+        // Cierra otros ítems si querés que solo se abra uno a la vez:
+        headers.forEach((otherHeader) => {
+          const otherItem = otherHeader.parentElement;
+          if (otherItem !== item) {
+            otherItem.classList.remove("active");
+          }
+        });
+      });
+    });
+  });
+</script>
+     
+</body>
+</html>
